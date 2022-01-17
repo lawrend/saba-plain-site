@@ -1,15 +1,57 @@
-#top-name {
-  color: #0C175C;
-}
 
+/* upper left name in navbar */
+#top-name {
+  color: #897376;
+  font-family: 'Mrs Sheppards', cursive;
+  text-decoration: underline;
+}
+/* fonts */
 .rale {
   font-family: 'Raleway', sans-serif;
 }
 
-.front-text {
-  color: black;
+.mont {
+  font-family: 'Montserrat', sans-serif;
 }
 
-._low {
-  color: black;
+.shepp {
+  font-family: 'Mrs Sheppards', cursive;
+}
+
+/* front padding */
+.front-squish {
+  padding-top: 3%;
+}
+.front-reg {
+  padding-top: 10%;
+}
+
+/* half and three quarter views */
+.half-view {
+  height: 50vh;
+  min-height: 380px;
+  padding-top: none;
+}
+
+.sevenfive-view {
+  height: 75vh;
+  min-height: 380px;
+}
+
+/* footer */
+.footer {
+  margin: 20px;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* for card backgrounds */
+.opaque-pink {
+  background-color: #fff1f140;
+}
+
+/* basic flex */ 
+.flex {
+  display: flex;
+  justify-content: space-between;
 }

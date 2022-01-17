@@ -9,10 +9,9 @@
     <title>Saba Omidvar</title>
 
     <!-- GOOGLE FONTS -->
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mrs+Sheppards&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
 
     <!-- BEAUTER CDN -->
 
@@ -21,99 +20,131 @@
 
     <!-- ADDITIONAL CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-
   </head>
 
+  <!-- BEGIN BODY -->
   <body>
 
     <!-- NAVBAR -->
-    <ul class="topnav -fixed" id="myTopnav" style="background:#A3B4B9">
-      <li>
-        <a id="top-name" class="brand" href="#">
-          Saba Omidvar</a>
-      </li>
-      <li class="dropdown">
-        <a href="#treatment">Treatments</a>
-        <div class="dropdown-content">
-          <ul>
-            <li><a href="#">Teens</a></li>
-            <li><a href="#">Couples</a></li>
-          </ul>
-        </div>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li style="float:right;"><a href="#" >Schedule an Appointment</a></li>
-      <li class="-icon">
-        <a href="javascript:void(0);" onclick="topnav('myTopnav2')">☰</a>
-      </li>
-    </ul>
+    <div>
+      <ul class="topnav -fixed" id="myTopnav">
+        <li>
+          <a id="top-name" class="brand" href="#">
+            Saba Omidvar</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
 
-    <div class="bg-parallax" style="background-image: url('assets/images/beach.jpg')">
-      <div class="-front">
-        <div class="container">
-          <h1>A Lady Therapist</h1>
-        </div> <!--container-->
-        <div class="container">
-          <h2>She gets it done, son</h2>
-          <p>And how, you may ask?</p>
-          <p><strong>DO NOT ASK, BUCKO</strong></p>
-          <h3>Top o' th'mornin'</h3>
-          </div><!--container-->
+        <li class="dropdown" id="treatmentDropdown">
+
+          <a href="javascript:void(0)" onclick="topnav('treatmentDropdown')" class="dropbtn">Treatments</a>
+          <div class="dropdown-content">
+            <a href="#">Adults</a>
+            <a href="#">Teens</a>
+            <a href="#">Couples</a>
+          </div>
+        </li>
+
+        <li style="float:right;"><a href="#" >Schedule an Appointment<p>800-EAT-BUTT</p></a></li>
+        <li class="-icon">
+          <a href="javascript:void(0);" onclick="topnav('myTopnav')">☰</a>
+        </li>
+      </ul>
+
+    </div>
+    <!-- BEGIN MAIN -->
+
+    <!-- PARALLAX 1-->
+    <div class="bg-parallax sevenfive-view _alignCenter" style="background-image: url('assets/images/beach.jpg')">
+      <div class="-front front-reg">
+        <div class="container shepp">
+          <h1>Saba Omidvar</h1>
+          <p class="mont">She gets it done, son</p>
+        </div><!--container-->
       </div><!--front-->
     </div><!--bg-parallax-->
 
+    <!-- PARALLAX 1.5 -->
+    <div class="bg-parallax half-view">
+      <div class="-front front-squish _f-black _alignCenter">
+          <h1>A Therapist</h1>
+          <div class="container _alignLeft">
+          <h2>She gets it </h2>
+          <p>And how</p>
+          <p><strong>DO NOT</strong></p>
+        </div><!--container-->
+      </div><!--front-->
+    </div><!--bg-parallax-->
+
+
+    <!-- PARALLAX 2 -->
     <div class="bg-parallax" style="background-image: url('assets/images/sereneSunset.jpg')">
-      <div class="-front">
+      <div class="-front front-reg">
         <div class="container">
           <h1>How does she do it???</h1>
-        </div> <!--container-->
-        <!-- <div class="container"> -->
-          <h2>She gets it done, son</h2>
-          <h3>Top o' th'mornin'</h3>
+          <h2>Very Carefully</h2>
+          <h3>Don't start trippin'</h3>
+          <div class="flex">
 
-          <div class="card  _round" style="width:300px; height:300px">
-            <div class="-content">
-              be content
+              <div class="card  _round opaque-pink" style="width:200px; height:200px">
+                <div class="-content">
+                    <h4>She...</h4>
+                    <h1 class="_alignCenter shepp">listens</h1>
+                  </div> <!--content-->
+                </div> <!--card-->
+
+                <div class="card  _round opaque-pink" style="width:200px; height:200px">
+                  <div class="-content">
+                    <h4>She...</h4>
+                    <h1 class="_alignCenter shepp">thinks</h1>
+                  </div> <!--content-->
+                </div> <!--card-->
+
+                <div class="card  _round opaque-pink" style="width:200px; height:200px">
+                  <div class="-content">
+                    <h4>She...</h4>
+                    <h1 class="_alignCenter shepp">says stuff</h1>
+                  </div> <!--content-->
+                </div> <!--card-->
+
+          </div><!--flex-->
+        </div><!--container-->
+        </div><!--front-->
+      </div><!--bg-parallax-->
+
+      <!-- PARALLAX 3 NO PIC -->
+      <div class="bg-parallax">
+        <div class="-front _f-black front-reg">
+          <div class="container">
+            <h1>She's super fine</h1>
+            <h2>Probably blow your mind</h2>
+            <h3>Oh fasho</h3>
+
+            <div class="card  _round" style="width:300px; height:300px">
+              <div class="-content">
+                be content
+              </div>
             </div>
           </div>
-          
+        </div><!--front-->
+      </div><!--bg-parallax-->
 
-        <!-- </div> -->
-      </div><!--front-->
-    </div><!--bg-parallax-->
-    <div class="bg-parallax">
-      <div class="-front _f-black">
-        <div class="container">
-          <h1>She's super fine</h1>
-        </div> <!--container-->
-        <!-- <div class="container"> -->
-          <h2>Probably blow your mind</h2>
-          <h3>Oh fasho</h3>
+      <!-- SECTION 4 CONTAINER-->
+      <div class="container">
+        <h2>LET'S DO THIS</h2>
+        <p>please</h2>
+      </div>
 
-          <div class="card  _round" style="width:300px; height:300px">
-            <div class="-content">
-              be content
-            </div>
-          </div>
-          
-
-        <!-- </div> -->
-      </div><!--front-->
-    </div><!--bg-parallax-->
-    <div class="container" style="background-color: gray">
-      <h2>LET'S DO THIS</h2>
-    </div>
-     <div class="container">
-      <h2>please</h2>
-    </div>
-  
+      <!-- FOOTER -->
+      <div class="footer">
+        <p>How does this do as a footer?</p>
+      </div>
 
 
 
-    <script src="./js/beauter.js"></script>
-    <script src="./js/scripts.js"></script>
+      <script src="./js/beauter.js"></script>
+      <script src="./js/scripts.js"></script>
   </body>
 </html>
 

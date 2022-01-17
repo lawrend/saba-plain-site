@@ -53,7 +53,7 @@ html
 
 body
 {
-    font-family: 'Roboto', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.6;
@@ -61,7 +61,7 @@ body
     margin: 0;
 
     color: #222;
-    background-color: #fff;
+    background-color: #fff1f1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -1448,7 +1448,9 @@ ul.breadcrumb li a:hover
 
 
 /*<<<---------- Navigation ---------->>>*/
-
+#myTopnav {
+  background-color: #daa;
+}
 
 /*Top Navigation*/
 ul.topnav
@@ -1476,6 +1478,20 @@ ul.topnav li
     float: left;
 
     margin-bottom: 0;
+    /* below taken from li a */
+    font-size: 17px;
+
+    display: inline-block;
+
+    padding: 14px 16px;
+
+    -webkit-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+    text-align: center;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 1);
 }
 
 ul.topnav li input,
@@ -1506,7 +1522,7 @@ ul.topnav li a
 
 ul.topnav li a.brand
 {
-    font-weight: bold;
+    /* font-weight: bold; */
 
     margin-right: 20px;
     margin-left: 20px;
@@ -1544,18 +1560,18 @@ ul.topnav li.-icon
 {
     display: none;
 }
+/* COMMENTING OUT NEXT TWO */
+/* ul.topnav .dropdown:hover .dropdown-content */
+/* { */
+/*     display: block; */
+/* } */
 
-ul.topnav .dropdown:hover .dropdown-content
-{
-    display: block;
-}
 
 
-
-ul.topnav .dropdown-content a
-{
-    /* display: block; */
-}
+/* ul.topnav .dropdown-content a */
+/* { */
+/*     display: block; */
+/* } */
 
 @media screen and (max-width:750px)
 {
@@ -1619,7 +1635,7 @@ ul.topnav .dropdown-content a
 
 .dropdown-content a
 {
-    display: block;
+    /* display: block; */
 
     padding: 12px 16px;
 
@@ -1776,11 +1792,12 @@ ul.listnav
 
 .bg-parallax .-front
 {
-    padding-top: 10%;
+    /* padding-top: 10%; */
 
     color: #fff;
 }
 
+.
 
 
 /*<<<---------- Progress Bar ---------->>>*/
