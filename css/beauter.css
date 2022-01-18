@@ -1710,10 +1710,11 @@ ul.listnav
 
 .topnav.-fixed
 {
-    position: fixed !important;z-index: 1 !important; 
+    position: fixed !important;
+    z-index: 1 !important; 
     top: 0;
-
-    width: 100% !important; margin-bottom: 56px !important;
+    width: 100% !important; 
+    margin-bottom: 56px !important;
 }
 
 

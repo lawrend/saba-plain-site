@@ -3,7 +3,11 @@
 #top-name {
   color: #897376;
   font-family: 'Mrs Sheppards', cursive;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+}
+
+.topnav {
+  padding: 1px;
 }
 /* fonts */
 .rale {
@@ -18,7 +22,7 @@
   font-family: 'Mrs Sheppards', cursive;
 }
 
-/* front padding */
+/* front sections of parallax - padding */
 .front-squish {
   padding-top: 3%;
 }
@@ -26,7 +30,7 @@
   padding-top: 10%;
 }
 
-/* half and three quarter views */
+/* half and three quarter views of parallax*/
 .half-view {
   height: 50vh;
   min-height: 380px;
@@ -40,9 +44,11 @@
 
 /* footer */
 .footer {
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
-  text-align: center;
-  font-size: 1em;
+  text-align: left;
+  font-size: .5em;
 }
 
 /* for card backgrounds */
@@ -50,7 +56,7 @@
   background-color: #fff1f140;
 }
 
-/* basic flex */ 
+/* basic flex container*/ 
 .flex {
   display: flex;
   justify-content: space-between;
