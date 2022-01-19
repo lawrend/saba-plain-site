@@ -26,42 +26,16 @@
   <body>
 
     <!-- NAVBAR -->
-    <div>
-      <ul class="topnav -fixed" id="myTopnav">
-        <li>
-          <a id="top-name" class="brand" href="#">
-            Saba Omidvar</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-
-        <li class="dropdown" id="treatmentDropdown">
-
-          <a href="javascript:void(0)" onclick="topnav('treatmentDropdown')" class="dropbtn">Treatments</a>
-          <div class="dropdown-content">
-            <a href="#">Adults</a>
-            <a href="#">Teens</a>
-            <a href="#">Couples</a>
-          </div>
-        </li>
-
-        <li style="float:right;"><a href="#" >Schedule an Appointment</a></li>
-        <li class="-icon">
-          <a href="javascript:void(0);" onclick="topnav('myTopnav')">☰</a>
-        </li>
-      </ul>
-
-    </div>
+    <header-component></header-component>
     <!-- BEGIN MAIN -->
 
     <!-- PARALLAX 1-->
-    <div class="bg-parallax sevenfive-view _alignCenter" style="background-image: url('assets/images/beach.jpg')">
+    <div class="bg-parallax half-view _alignCenter" style="background-image: url('assets/images/beach.jpg')">
       <div class="-front front-reg">
-        <div class="container shepp">
+        <div class="container shepp" style="margin-top: 76px">
           <h1>Saba Omidvar
             <p>
-          <small class="mont">She gets it done, son</small>
+            <small class="mont">She gets it done, son</small>
             </p>
           </h1>
         </div><!--container-->
@@ -70,13 +44,25 @@
 
     <!-- PARALLAX 1.5 -->
     <div class="bg-parallax half-view">
-      <div class="-front front-squish _f-black _alignCenter">
-          <h1>A Therapist</h1>
-          <div class="container _alignLeft">
-          <h2>She gets it </h2>
-          <p>And how</p>
-          <p><strong>SHE DOES NOT PLAY THE FOOL</strong></p>
-        </div><!--container-->
+      <div class="-front front-squish _f-black" style="margin-top: 20px;">
+        <div class="flex-around">
+
+          <div class="opaque-pink" style="width:25vw">
+            <img src="assets/images/SabaHeadshot2022.jpeg" class="_width100 -round _shadow">       
+          </div> <!--card-->
+
+          <div class="card _round opaque-pink" style="width:50vw"> 
+            <div class="-content">
+              <h3>Hi There!
+                <br>
+              <small>I am called Saba!</small>
+              </h3>
+              <p><strong>I like you and you like me!</strong></p>
+            </div><!--content-->
+          </div><!--card-->
+
+
+        </div><!--flex container-->
       </div><!--front-->
     </div><!--bg-parallax-->
 
@@ -90,91 +76,92 @@
           <h3>Don't start trippin'</h3>
           <div class="flex">
 
-              <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                <div class="-content">
-                    <h4>She...</h4>
-                    <h1 class="_alignCenter shepp">listens</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <h4>She...</h4>
+                <h1 class="_alignCenter shepp">listens</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
-                <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                  <div class="-content">
-                    <h4>She...</h4>
-                    <h1 class="_alignCenter shepp">thinks</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <h4>She...</h4>
+                <h1 class="_alignCenter shepp">thinks</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
-                <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                  <div class="-content">
-                    <h4>She...</h4>
-                    <h1 class="_alignCenter shepp">says stuff</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <h4>She...</h4>
+                <h1 class="_alignCenter shepp">says stuff</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
           </div><!--flex-->
         </div><!--container-->
-        </div><!--front-->
-      </div><!--bg-parallax-->
+      </div><!--front-->
+    </div><!--bg-parallax-->
 
-      <!-- PARALLAX 3 NO PIC -->
-      <div class="bg-parallax">
-        <div class="-front _f-black front-reg">
-          <div class="container">
-            <h1>She's super fine</h1>
-            <h2>Probably blow your mind</h2>
-            <h3>Oh fasho</h3>
-      <div class="flex">
+    <!-- PARALLAX 3 NO PIC -->
+    <div class="bg-parallax">
+      <div class="-front _f-black front-reg">
+        <div class="container">
+          <h1>She's super fine</h1>
+          <h2>Probably blow your mind</h2>
+          <h3>Oh fasho</h3>
+          <div class="flex">
 
-              <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                <div class="-content">
-                    <h1 class="_alignCenter shepp">Do not...</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <h1 class="_alignCenter shepp">Do not...</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
-                <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                  <div class="-content">
-                    <br>
-                    <br>
-                    <h1 class="_alignCenter shepp">...get it...</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <br>
+                <br>
+                <h1 class="_alignCenter shepp">...get it...</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
-                <div class="card  _round opaque-pink" style="width:200px; height:200px">
-                  <div class="-content">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h1 class="_alignCenter shepp">...twisted.</h1>
-                  </div> <!--content-->
-                </div> <!--card-->
+            <div class="card  _round opaque-pink" style="width:200px; height:200px">
+              <div class="-content">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="_alignCenter shepp">...twisted.</h1>
+              </div> <!--content-->
+            </div> <!--card-->
 
           </div><!--flex-->
-          </div> <!--container-->
-        </div><!--front-->
-      </div><!--bg-parallax-->
+        </div> <!--container-->
+      </div><!--front-->
+    </div><!--bg-parallax-->
 
-      <!-- SECTION 4 CONTAINER-->
-      <div class="container">
-        <h2>LET'S DO THIS</h2>
-        <p>please</p>
-      </div>
+    <!-- SECTION 4 CONTAINER-->
+    <div class="container">
+      <h2>LET'S DO THIS</h2>
+      <p>please</p>
+    </div>
 
-      <!-- FOOTER -->
-      <div class="footer">
-        <div>
+    <!-- FOOTER -->
+    <div class="footer">
+      <div>
         Made with <a href="https://www.beuter.com">Beauter</a>
-        </div>
-        <div>
-       Design by Lawrend
-        </div>
       </div>
+      <div>
+        Design by Lawrend
+      </div>
+    </div>
 
 
 
-      <script src="./js/beauter.js"></script>
-      <script src="./js/scripts.js"></script>
+    <script src="./js/beauter.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./components/header.js" type="text/javascript" defer></script>
   </body>
 </html>
 

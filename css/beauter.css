@@ -1479,11 +1479,11 @@ ul.topnav li
 
     margin-bottom: 0;
     /* below taken from li a */
-    font-size: 17px;
+    font-size: 12px;
 
     display: inline-block;
 
-    padding: 14px 16px;
+    padding: 10px 12px;
 
     -webkit-transition: .3s;
          -o-transition: .3s;
