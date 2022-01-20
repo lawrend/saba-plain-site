@@ -27,7 +27,7 @@
   padding-top: 3%;
 }
 .front-reg {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 /* half and three quarter views of parallax*/
@@ -40,6 +40,24 @@
 .sevenfive-view {
   height: 75vh;
   min-height: 380px;
+}
+
+.twentyfive-view {
+  height: 25vh;
+  min-height: 300px;
+}
+.twenty-view {
+  height: 25vh;
+  min-height: 120px;
+  width:100vw;
+}
+
+/* about page */
+.about-view {
+  height: 50vh;
+  max-height: 400px;
+  min-height: 300px;
+  margin-top: 100px;
 }
 
 /* footer */
