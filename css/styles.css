@@ -84,3 +84,80 @@
   display: flex;
   justify-content: space-around;
 }
+
+.sheDoes .card {
+  }
+
+  .rightie.in-view {
+    animation-name: shakeR;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+ .in-view.leftie{
+    animation-name: shakeL;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+
+
+
+
+/* KEYFRAME ANIMATIONS */
+@keyframes shakeL {
+	0% {
+       opacity: 0.5;
+       translate:-10px -10px;
+	}
+	50% {
+      opacity: 1;
+		}
+}
+@keyframes shakeR {
+	0% {
+       opacity: 0.5;
+       translate:10px 10px;
+	}
+	50% {
+      opacity: 1;
+		}
+}
+
+
+
+// ANIMATION
+@media screen and (max-width: 900px) {
+  .sheDoes {
+        div {
+          width: 250px;
+          flex-direction: column;
+          div {
+            width: 80%;
+            margin: 10px;
+          }
+        }
+        &:nth-of-type(even) {
+          > div {
+            left: -289px;
+          }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: #8bfff4;
+  }
+  .sheDoes {
+        margin-left: 20px;
+        div {
+          width: calc(100vw - 91px);
+        }
+        &:nth-of-type(even) {
+          > div {
+            left: 45px;
+          }
+    }
+  }
+}
+
+
