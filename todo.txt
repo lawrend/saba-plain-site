@@ -1,0 +1,9 @@
+--make several template pages or portions thereof
+
+think about variety of layouts and assets
+
+mock them up
+
+--fix header
+
+
