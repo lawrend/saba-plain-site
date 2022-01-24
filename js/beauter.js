@@ -23,6 +23,7 @@ function topnav(y) {
     }
 }
 
+
 function openmodal(idmodal) {
     var modal = document.getElementById(idmodal);
     modal.style.display = "block";

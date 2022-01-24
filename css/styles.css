@@ -55,9 +55,19 @@
   animation-fill-mode: forwards;
 }
 
-  /* bad option */
-  /* opacity: 0; */
-  /* transition: opacity 5s; */
+/* HEADER */
+@media screen and (max-width:768px)
+{
+  .header {
+    margin-top: 10%;
+  }
+}
+
+
+
+
+
+
 
 /* upper left name in navbar */
 #top-name {
@@ -147,11 +157,21 @@
 }
 
 /* ANIMATION AND FADE */
+
+  .rightie {
+    margin-right: -20px;
+    margin-bottom: -20px;
+  }
+
   .rightie.in-view {
     animation-name: shakeR;
     animation-duration: 1s;
     animation-iteration-count: 1;
   }
+
+  .leftie {
+  }
+
  .in-view.leftie{
     animation-name: shakeL;
     animation-duration: 2s;
@@ -164,7 +184,7 @@
 /* KEYFRAME ANIMATIONS */
 @keyframes shakeL {
 	0% {
-       opacity: 0.4;
+       opacity: 0.3;
        translate:-10px -10px;
 	}
 	50% {
@@ -173,50 +193,13 @@
 }
 @keyframes shakeR {
 	0% {
-       opacity: 0.4;
-       translate:10px 10px;
+       opacity: 0.3;
+       translate: 10px 10px;
 	}
 	50% {
       opacity: 1;
 		}
 }
 
-
-
-// ANIMATION
-@media screen and (max-width: 900px) {
-  .sheDoes {
-        div {
-          width: 250px;
-          flex-direction: column;
-          div {
-            width: 80%;
-            margin: 10px;
-          }
-        }
-        &:nth-of-type(even) {
-          > div {
-            left: -289px;
-          }
-    }
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    /* background: #8bfff4; */
-  }
-  .sheDoes {
-        margin-left: 20px;
-        div {
-          width: calc(100vw - 91px);
-        }
-        &:nth-of-type(even) {
-          > div {
-            left: 45px;
-          }
-    }
-  }
-}
 
 
