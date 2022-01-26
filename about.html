@@ -9,9 +9,9 @@
     <title>Saba Omidvar</title>
 
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mrs+Sheppards&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> --> 
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> --> 
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mrs+Sheppards&family=Raleway:wght@300;400&display=swap" rel="stylesheet"> -->
 
     <!-- BEAUTER CDN -->
 
@@ -23,58 +23,46 @@
   </head>
 
   <!-- BEGIN BODY -->
-  <!-- fade in effect bad option -->
-  <!-- <body onload="document.body.style.opacity='1'"> -->
   <body>
 
     <!-- NAVBAR -->
-    <navbar-component></navbar-component>
+    <div class="navbar-container">
+      <navbar-component></navbar-component>
+    </div>
     <!-- BEGIN MAIN -->
 
-    <header-component></header-component>
+    <div class="header-container">
+      <header-component></header-component>
+    </div>
+
+
     <!-- ABOUT -->
-    <div class="about-view _f-black flex-around">
 
-      <!-- SABA PIC -->
-      <!-- <div class="opaque-pink" style="width: 25vw; margin-top: 20px;"> -->
-      <div class="flex-around" style="width: 33vw">
-      <img src="assets/images/SabaHeadshot2022.jpeg" class="fade-in-1 -thumb _shadow" style="height: 100%;">       
+    <div class="about-container flex-row flex-around">
+
+        <!-- picture -->
+      <div class="about-pic fade-in-1">
+        <img src="assets/images/SabaHeadshot2022.jpeg">       
       </div>
-      <!-- About Text -->
-      <div style="width: 33vw;" class="fade-in-3"> 
-        <h3>Hi There!
-          <br>
-          <small>I am called Saba!</small>
-        </h3>
-        <p><strong>I like you and you like me!</strong></p>
-      </div>
-    <div style="width: 33vw;" class="fade-in-2"> 
-        <h3>Hi There!
-          <br>
-          <small>I am called Saba!</small>
-        </h3>
-        <p><strong>I like you and you like me!</strong></p>
-      </div>
-    </div>
 
-
-
-    <!-- SECTION CONTAINER-->
-    <div class="container" style="margin-top: 76px">
-      <h2>LET'S DO THIS</h2>
-      <p>please</p>
-    </div>
-
+      <!-- text -->
+      <div class="about-text longfade">
+        <h3>Hi There!</h3>
+        <h5>I am called Saba!</h5>
+        <p class="brawler">The Charles Bluemlein Script Collection is an intriguing reminder of the heady days of hand lettering and calligraphy in the United States. From the early 1930s through World War II, there were about 200 professional hand letterers working in New York City alone. This occupation saw its demise with the advent of photo lettering, and after digital typography it became virtually extinct. The odd way in which the Bluemlein scripts were assembled and created - by
+        collecting different signatures and then building complete alphabets from them - is a fascinating calligraphic adventure. Because the set of constructed designs looked nothing like the original signatures, fictitious names were assigned to the new script typefaces. The typeface styles were then showcased in Higgins Ink catalogs.</p>
+      </div><!-- about-text-->
+    </div><!-- about-container-->
 
     <!-- FOOTER -->
-    <div class="footer">
+    <div class="footer flex-row flex-around">
       <div>
         Made with <a href="https://www.beuter.com">Beauter</a>
       </div>
       <div>
         Design by Lawrend
       </div>
-    </div>
+    </div><!--footer-->
 
 
 
