@@ -80,7 +80,10 @@
 /* HEADER */
 
 .header {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 40vh; 
+  width: 100%;
 }
 
 @media screen and (max-width:750px)
@@ -90,7 +93,27 @@
   }
 }
 
+/* BUTTON - OVERRIDES OTHER CSS */
 
+.btnlt {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6em;
+  text-align: center;
+  border-radius: 40px;
+  border-width: 3px;
+
+  /* background-color: #000daa30; */
+  border-color: #000daa;
+  color: #000daa;
+  background-color: none;
+  height: 50px;
+  width: 135px;
+  transition: 0.7s;
+}
+
+.btnlt:hover {
+  background-color: #ddaaaa;
+}
 
 
 
@@ -155,10 +178,6 @@
 
 .about-text {
   width: 67vw;
-
-}
-
-.about-wrapper {
 }
 
 /* @media screen and (max-width:750px) */ 
@@ -274,8 +293,15 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
   font-size: .5em;
+  background-color: #000daa30;
+  width: 100%;
+  bottom: 0;
+  /* position: fixed; */
+  height: 8vh;
 }
 
 

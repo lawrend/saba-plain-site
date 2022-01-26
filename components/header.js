@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <!-- PARALLAX 1-->
-    <div class="bg-parallax sevenfive-view _alignCenter header" style="background-image: url('assets/images/beach.jpg')">
+    <div class="bg-parallax _alignCenter header" style="background-image: url('assets/images/beach.jpg')">
       <div class="-front front-reg shepp">
           <h1>Saba Omidvar
             <p>

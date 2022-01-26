@@ -7,7 +7,6 @@ class Navbar extends HTMLElement {
     this.innerHTML = `
 
     <!-- NAVBAR -->
-    <div>
       <ul class="topnav -fixed" id="myTopnav">
         <li>
           <a id="top-name" class="brand" href="index.html">
@@ -24,7 +23,7 @@ class Navbar extends HTMLElement {
             <a href="#">Adults</a>
             <a href="#">Teens</a>
             <a href="#">Couples</a>
-          </div>
+          </div><!-- dropdown-content -->
         </li>
 
         <li style="float:right;"><a href="#" >Schedule an Appointment</a></li>
@@ -32,9 +31,6 @@ class Navbar extends HTMLElement {
           <a href="javascript:void(0);" onclick="topnav('myTopnav')">☰</a>
         </li>
       </ul>
-
-    </div>
-
     `;
   }
 }
