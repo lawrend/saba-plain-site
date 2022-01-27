@@ -1,5 +1,9 @@
 function testMe() {
-  console.log("the test works")
+  const spSound=1130;
+  const hertz = [110, 220, 440, 880, 1760, 3520, 7040];
+  for(let i in hertz){
+    console.log(spSound/hertz[i])
+  }
 }
 
 var items = document.querySelectorAll(".card");

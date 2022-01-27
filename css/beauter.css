@@ -66,6 +66,7 @@ body
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    height: 100%;
 }
 
 
@@ -142,7 +143,7 @@ input[type='submit']::-moz-focus-inner
 {
     padding: 0;
 
-    border-style: none;
+    /* border-style: none; */
 }
 
 .button:-moz-focusring,
@@ -151,7 +152,7 @@ input[type='button']:-moz-focusring,
 input[type='reset']:-moz-focusring,
 input[type='submit']:-moz-focusring
 {
-    outline: 1px dotted ButtonText;
+    /* outline: 1px dotted ButtonText; */
 }
 
 legend
@@ -223,9 +224,9 @@ fieldset
     margin: 0 2px;
     padding: .35em .625em .75em;
 
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     /*c0c0c0*/
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 input[type='checkbox'],
@@ -251,26 +252,26 @@ input[type='submit'],
 input[type='reset'],
 input[type='button']
 {
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 1.15;
+    /* font-size: 11px; */
+    /* font-weight: 600; */
+    /* line-height: 1.15; */
 
-    display: inline-block;
+    /* display: inline-block; */
 
-    margin-bottom: 1rem;
-    padding: 10px 30px;
+    /* margin-bottom: 1rem; */
+    /* padding: 10px 30px; */
 
-    cursor: pointer;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
+    /* cursor: pointer; */
+    /* text-align: center; */
+    /* white-space: nowrap; */
+    /* text-decoration: none; */
+    /* letter-spacing: .1rem; */
+    /* text-transform: uppercase; */
 
-    color: #555;
-    border: 1px solid #bbb;
-    border-radius: 4px;
-    background-color: transparent;
+    /* color: #555; */
+    /* border: 1px solid #bbb; */
+    /* border-radius: 4px; */
+    /* background-color: transparent; */
 }
 
 .button:hover,
@@ -284,10 +285,10 @@ input[type='submit']:focus,
 input[type='reset']:focus,
 input[type='button']:focus
 {
-    opacity: .75;
-    color: #333;
-    border-color: #888;
-    outline: 0;
+    /* opacity: .75; */
+    /* color: #333; */
+    /* border-color: #888; */
+    /* outline: 0; */
 }
 
 input[type='email'],
@@ -300,15 +301,15 @@ input[type='password'],
 textarea,
 select
 {
-    height: 34px;
-    padding: 6px 10px;
+    /* height: 34px; */
+    /* padding: 6px 10px; */
 
-    border: 1px solid #d1d1d1;
-    border-radius: 4px;
-    /* The 6px vertically centers text on FF, ignored by Webkit */
-    background-color: #fff;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    /* border: 1px solid #d1d1d1; */
+    /* border-radius: 4px; */
+    /* /1* The 6px vertically centers text on FF, ignored by Webkit *1/ */
+    /* background-color: #fff; */
+    /* -webkit-box-shadow: none; */
+    /*         box-shadow: none; */
 }
 
 
@@ -323,9 +324,9 @@ input[type='url'],
 input[type='password'],
 textarea
 {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    /* -webkit-appearance: none; */
+    /*    -moz-appearance: none; */
+    /*         appearance: none; */
 }
 
 input[type='email']:focus,
@@ -338,8 +339,8 @@ input[type='password']:focus,
 textarea:focus,
 select:focus
 {
-    border: 2px solid #33c3f0;
-    outline: 0;
+    /* border: 2px solid #33c3f0; */
+    /* outline: 0; */
 }
 
 
@@ -1701,7 +1702,7 @@ ul.listnav
 
 .listnav li.active a
 {
-    border-left: 5px solid rgba(255, 255, 255, .5);
+    /* border-left: 5px solid rgba(255, 255, 255, .5); */
 }
 
 ._cream.listnav li a,

@@ -7,12 +7,12 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <!-- PARALLAX 1-->
     <div class="bg-parallax _alignCenter header" style="background-image: url('assets/images/beach.jpg')">
-      <div class="-front front-reg shepp">
-          <h1>Saba Omidvar
-            <p>
-            <small class="mont">Therapy? Ew.</small>
-            </p>
-          </h1>
+      <div class="-front front-reg brawler">
+          <h2>Therapy for when you are like, ew that's gross
+          </h2>
+
+      <br>
+      <button class="btn btn2 header-btn">get some</button>
       </div><!--front-->
     </div><!--bg-parallax-->
     `;

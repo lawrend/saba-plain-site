@@ -95,26 +95,74 @@
 
 /* BUTTON - OVERRIDES OTHER CSS */
 
-.btnlt {
+.btn {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6em;
   text-align: center;
   border-radius: 40px;
-  border-width: 3px;
+  /* border-width: 2px; */
+  border: none;
+  height: 50px;
+  width: 180px;
+  transition: 0.3s;
+  padding: 0px;
+  text-transform: uppercase;
+  /* border-color: inherit; */
+}
 
-  /* background-color: #000daa30; */
+.header-btn {
+  width: 200px;
+  /* padding-bottom: 10px; */
+}
+
+.btn1 {
+  border: solid; 
+  border-width: 2px;
   border-color: #000daa;
   color: #000daa;
-  background-color: none;
-  height: 50px;
-  width: 135px;
-  transition: 0.7s;
+  background-color: #fffafa;
+  /* padding-bottom: 10px; */
+  /* padding-top: 20px */
 }
 
-.btnlt:hover {
+.btn1:hover {
+  background-color: #000daa;
+  color: #fffafa;
+  /* border: none; */
+}
+
+.btn2 {
+  /* border-color: #daa; */
+  border: none;
+  color: #fffafa;
   background-color: #ddaaaa;
 }
+.btn2:hover {
 
+  /* border-color: #000daa; */
+  color: #fffafa;
+  background-color: #000daa;
+}
+
+.btn3 {
+  border: solid 2px;
+  border-color: #ddaaaa;
+  color: #ddaaaa;
+  background-color: #000daa;
+}
+
+.btn3:hover {
+  border-color: #000daa;
+  background-color: #ddaaaa;
+  color: #fff;
+}
+
+
+/* PARALLAX 3 */
+.plax3 {
+  background-color: #000daa; 
+  color: #fffafa
+}
 
 
 
