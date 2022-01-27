@@ -41,6 +41,39 @@
      }
 }
 
+/* COLORS */
+:root {
+  --offwhite:  #f6f1ee; 
+  --primarylt: #fbdcce;
+  --primarydk: #efa885;
+  --secondary: #5583a6;
+  --tertiary:  #f6c270;
+
+}
+
+.secondary_text {
+  color: var(--secondary);
+}
+  
+
+body
+{
+    font-family: 'Montserrat', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.6;
+
+    margin: 0;
+
+    color: #222;
+    background-color: var(--offwhite);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
 
 
 /* add class to anything */
@@ -118,58 +151,62 @@
 .btn1 {
   border: solid; 
   border-width: 2px;
-  border-color: #000daa;
-  color: #000daa;
-  background-color: #fffafa;
+  border-color: var(--secondary);
+  color: var(--secondary);
+  background-color: var(--offwhite);
   /* padding-bottom: 10px; */
   /* padding-top: 20px */
 }
 
 .btn1:hover {
-  background-color: #000daa;
-  color: #fffafa;
+  background-color: var(--secondary);
+  color: var(--offwhite);
   /* border: none; */
 }
 
 .btn2 {
   /* border-color: #daa; */
   border: none;
-  color: #fffafa;
-  background-color: #ddaaaa;
+  color: var(--offwhite);
+  background-color: var(--primarydk);
 }
 .btn2:hover {
 
   /* border-color: #000daa; */
-  color: #fffafa;
-  background-color: #000daa;
+  color: var(--offwhite);
+  background-color: var(--secondary);
 }
 
 .btn3 {
   border: solid 2px;
-  border-color: #ddaaaa;
-  color: #ddaaaa;
-  background-color: #000daa;
+  border-color: var(--secondary);
+  color: var(--tertiary);
+  background-color: var(--secondary);
 }
 
 .btn3:hover {
-  border-color: #000daa;
-  background-color: #ddaaaa;
-  color: #fff;
+  border-color: var(--primarylt);
+  background-color: var(--primarylt);
+  color: var(--secondary);
 }
 
 
 /* PARALLAX 3 */
 .plax3 {
-  background-color: #000daa; 
-  color: #fffafa
+  background-color: var(--tertiary); 
+  color: var(--offwhite); 
 }
 
 
 
 
 /* upper left name in navbar */
+#myTopnav {
+  background-color: var(--primarydk);
+}
+
 #top-name {
-  color: #897376;
+  color: var(--secondary);
   font-family: 'Mrs Sheppards', cursive;
   /* text-decoration: underline; */
 }
@@ -345,7 +382,8 @@
   padding-right: 50px;
   padding-top: 20px;
   font-size: .5em;
-  background-color: #000daa30;
+  background-color: var(--primarylt);
+  color: var(--secondary);
   width: 100%;
   bottom: 0;
   /* position: fixed; */
