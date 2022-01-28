@@ -50,26 +50,6 @@ html
     -webkit-text-size-adjust: 100%;
     /*This will set all REM to 10px, so that 1.8rem=18px*/
 }
-
-body
-{
-    font-family: 'Montserrat', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1.5em;
-    font-weight: 400;
-    line-height: 1.6;
-
-    margin: 0;
-
-    color: #222;
-    background-color: #fffafa;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 100%;
-}
-
-
 /*<<<---------- Blockquote ---------->>>*/
 
 blockquote,
@@ -815,32 +795,6 @@ ul.breadcrumb li a:hover
 }
 
 
-/*<<<---------- Card ---------->>>*/
-
-.card
-{
-    -webkit-transition: .3s;
-         -o-transition: .3s;
-            transition: .3s;
-
-    border-radius: 5px;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
-}
-
-.card:hover
-{
-    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
-}
-
-.card .-content
-{
-    padding: 2px 16px;
-}
-
-
-
 
 
 /*<<<---------- Container ---------->>>*/
@@ -1449,10 +1403,6 @@ ul.breadcrumb li a:hover
 
 
 /*<<<---------- Navigation ---------->>>*/
-#myTopnav {
-  background-color: #daa;
-}
-
 /*Top Navigation*/
 ul.topnav
 {

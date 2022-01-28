@@ -27,8 +27,20 @@
   --primarydk: #efa885;
   --secondary: #5583a6;
   --tertiary:  #f6c270;
-  --text: #222;
+  --blktext: #010101;
+  --whttext: #fafafa;
+}
 
+.black_text {
+  color: var(--blktext)
+}
+
+.white_text {
+  color: var(--whttext)
+}
+
+.offwhite_text {
+  color: var(--offwhite)
 }
 
 .secondary_text {
@@ -37,6 +49,14 @@
 
 .tertiary_text {
   color: var(--tertiary);
+}
+
+.primarydk_text {
+  color: var(--primarydk)
+}
+
+.primarylt_text {
+  color: var(--primarylt)
 }
   
 
@@ -58,16 +78,63 @@ body
     height: 100%;
 }
 
-.hr1 {
-  width: 80%;
+.hr_photo {
+  width: 30%;
   /* margin-left: auto; */
   /* margin-right: auto; */
-  height: 15px;
-  /* background-color: var(--secondary); */
+  height: 5px;
+  /* background-color: var(--tertiary); */
   background: url('../assets/images/water_drop.jpg') no-repeat center;
   border: none;
 }
 
+.hr_primarydk {
+  width: 300px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 5px;
+  background-color: var(--primarydk);
+  /* background: url('../assets/images/water_drop.jpg') no-repeat center; */
+  border: none;
+}
+.hr_primarylt {
+  width: 30%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 5px;
+  background-color: var(--primarylt);
+  /* background: url('../assets/images/water_drop.jpg') no-repeat center; */
+  border: none;
+}
+.hr_offwhite {
+  width: 30%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 5px;
+  background-color: var(--offwhite);
+  /* background: url('../assets/images/water_drop.jpg') no-repeat center; */
+  border: none;
+}
+
+.hr_secondary {
+  width: 30%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 5px;
+  background-color: var(--secondary);
+  /* background: url('../assets/images/water_drop.jpg') no-repeat center; */
+  border: none;
+}
+
+.hr_tertiary {
+  width: 30%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  height: 5px;
+  background-color: var(--tertiary);
+  /* background: url('../assets/images/water_drop.jpg') no-repeat center; */
+  border: none;
+}
 /* FADE IN ON LOAD */
 @keyframes fadeInAnimation {
     0% {
