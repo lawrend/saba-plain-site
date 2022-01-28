@@ -19,27 +19,6 @@
 
 
 
-/* FADE IN ON LOAD */
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
-}
-@keyframes fadeInPause {
-    0% {
-        opacity: 0;
-    }
-    50% {
-      opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-     }
-}
 
 /* COLORS */
 :root {
@@ -48,11 +27,16 @@
   --primarydk: #efa885;
   --secondary: #5583a6;
   --tertiary:  #f6c270;
+  --text: #222;
 
 }
 
 .secondary_text {
   color: var(--secondary);
+}
+
+.tertiary_text {
+  color: var(--tertiary);
 }
   
 
@@ -74,6 +58,27 @@ body
     height: 100%;
 }
 
+/* FADE IN ON LOAD */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+@keyframes fadeInPause {
+    0% {
+        opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+     }
+}
 
 
 /* add class to anything */
@@ -131,6 +136,7 @@ body
 .btn {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6em;
+  font-weight: bold;
   text-align: center;
   border-radius: 40px;
   /* border-width: 2px; */
@@ -151,15 +157,15 @@ body
 .btn1 {
   border: solid; 
   border-width: 2px;
-  border-color: var(--secondary);
-  color: var(--secondary);
+  border-color: var(--primarydk);
+  color: var(--primarydk);
   background-color: var(--offwhite);
   /* padding-bottom: 10px; */
   /* padding-top: 20px */
 }
 
 .btn1:hover {
-  background-color: var(--secondary);
+  background-color: var(--primarydk);
   color: var(--offwhite);
   /* border: none; */
 }
@@ -168,7 +174,7 @@ body
   /* border-color: #daa; */
   border: none;
   color: var(--offwhite);
-  background-color: var(--primarydk);
+  background-color: var(--tertiary);
 }
 .btn2:hover {
 
@@ -180,7 +186,7 @@ body
 .btn3 {
   border: solid 2px;
   border-color: var(--secondary);
-  color: var(--tertiary);
+  color: var(--offwhite);
   background-color: var(--secondary);
 }
 
@@ -188,6 +194,30 @@ body
   border-color: var(--primarylt);
   background-color: var(--primarylt);
   color: var(--secondary);
+}
+
+/*<<<---------- Card ---------->>>*/
+
+.card
+{
+    -webkit-transition: .3s;
+         -o-transition: .3s;
+            transition: .3s;
+
+    border-radius: 5px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.card:hover
+{
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+}
+
+.card .-content
+{
+    padding: 2px 16px;
 }
 
 

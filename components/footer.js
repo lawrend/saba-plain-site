@@ -13,6 +13,7 @@ class Footer extends HTMLElement {
         Design by Lawrend
       </div>
     </div>
+
         `;
   }
 }
