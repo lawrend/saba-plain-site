@@ -9,8 +9,10 @@ class Navbar extends HTMLElement {
     <!-- NAVBAR -->
       <ul class="topnav -fixed" id="myTopnav">
         <li>
-          <a id="top-name" class="brand" href="index.html">
-            Saba Omidvar</a>
+        <div id="top-name">
+          <a class="brand" href="index.html">
+            <strong>Saba Omidvar, LMFT</strong></a>
+            </div>
         </li>
         <li>
           <a href="about.html">About</a>

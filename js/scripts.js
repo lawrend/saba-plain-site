@@ -6,8 +6,10 @@ function testMe() {
   }
 }
 
-var items = document.querySelectorAll(".card");
-console.log(items)
+// defining cards for animation; setTimeout so component has a chance to load first
+let cards;
+setTimeout(()=> {cards = document.querySelectorAll(".card");}, 100);
+console.log(cards)
 
 function isElementInViewport(el) {
   var rect = el.getBoundingClientRect();
@@ -20,10 +22,10 @@ function isElementInViewport(el) {
 }
 
 function callbackFunc() {
-  for (var i = 0; i < items.length; i++) {
-    if (isElementInViewport(items[i])) {
-      if(!items[i].classList.contains("in-view")){
-        items[i].classList.add("in-view");
+  for (var i = 0; i < cards.length; i++) {
+    if (isElementInViewport(cards[i])) {
+      if(!cards[i].classList.contains("in-view")){
+        cards[i].classList.add("in-view");
       }
     }
     // commented out below so animations fire only on first view
