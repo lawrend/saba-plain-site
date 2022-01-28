@@ -8,15 +8,9 @@
 
     <title>Saba Omidvar</title>
 
-    <!-- GOOGLE FONTS -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> --> 
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> --> 
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Brawler&family=Mrs+Sheppards&family=Raleway:wght@300;400&display=swap" rel="stylesheet"> -->
-
     <!-- BEAUTER CDN -->
 
     <link rel="stylesheet" href="css/beauter.css" type="text/css">
-    <!-- <link href="https://rawgit.com/outboxcraft/beauter/master/beauter.min.css" rel="stylesheet" type="text/css"> -->
 
     <!-- ADDITIONAL CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css">
@@ -27,68 +21,20 @@
 
     <!-- NAVBAR -->
     <navbar-component></navbar-component>
-    <!-- BEGIN MAIN -->
+    <!-- begin main section -->
+
+    <!-- HEADER -->
     <header-component></header-component>
 
-    <!-- NON-PARALLAX SECTION 1.5 -->
-    <div style="height: 60vh; width: 100%;">
-      <div class="rale container _alignCenter" style="padding: 50px;">
-        <h3 class="fade-in-1 secondary_text">Why Should Therapy Be So Whatever???<br>
-          <br>
-          <small class="shepp longfade tertiary_text">right?</small>
-        </h3>
-
-        <hr class="hr_tertiary">
-      </div>
-
-      <div class="_alignCenter">
-        <schedule-button-component></schedule-button-component>
-      </div>
-      <br>
-    </div>
+    <!-- SECTION WITH BUTTON -->
+    <section-with-button-component></section-with-button-component>
 
     <!-- PARALLAX WITH CARD -->
-    <parallaxwithcard-component></parallaxwithcard-component>
-    <!-- PARALLAX 3 NO PIC -->
-    <div class="bg-parallax plax3" >
-      <div class="-front front-reg">
-        <div class="container">
-          <h1 class="secondary_text">She's super fine</h1>
-          <h2 class="offwhite_text" >Probably blow your mind</h2>
-          <br>
-          <div class="flex-row flex-around secondary_text">
+    <parallax-with-card-component></parallax-with-card-component>
 
-            <div class="leftie card  _round opaque-pink" style="width:200px; height:200px">
-              <div class="-content">
-                <h1 class="_alignCenter shepp">Do not...</h1>
-              </div> <!--content-->
-            </div> <!--card-->
+    <!-- PARALLAX WITH CARD 2 -->
 
-            <div class="middle card  _round opaque-pink" style="width:200px; height:200px">
-              <div class="-content">
-                <br>
-                <br>
-                <h1 class="_alignCenter shepp">...get it...</h1>
-              </div> <!--content-->
-            </div> <!--card-->
-
-            <div class="rightie card  _round opaque-pink" style="width:200px; height:200px">
-              <div class="-content">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <h1 class="_alignCenter shepp">...twisted.</h1>
-              </div> <!--content-->
-            </div> <!--card-->
-          </div><!--flex-->
-          <br>
-          <br>
-          <div class="_alignCenter"><button class="btn btn3">book now</button></div>
-        </div> <!--container-->
-      </div><!--front-->
-    </div><!--bg-parallax-->
+    <parallax-with-card-2-component></parallax-with-card-2-component>
 
     <!-- SECTION 4 CONTAINER-->
     <div class="container">
@@ -103,7 +49,9 @@
 
     <script src="./js/beauter.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./components/sectionWithButton.js" type="text/javascript" defer></script>
     <script src="./components/parallaxWithCard.js" type="text/javascript" defer></script>
+    <script src="./components/parallaxWithCard2.js" type="text/javascript" defer></script>
     <script src="./components/header.js" type="text/javascript" defer></script>
     <script src="./components/navbar.js" type="text/javascript" defer></script>
     <script src="./components/footer.js" type="text/javascript" defer></script>

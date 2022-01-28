@@ -46,4 +46,4 @@ class ParallaxWithCard extends HTMLElement {
   }
 }
 
-customElements.define('parallaxwithcard-component', ParallaxWithCard);
+customElements.define('parallax-with-card-component', ParallaxWithCard);
