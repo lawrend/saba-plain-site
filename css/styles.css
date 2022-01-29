@@ -211,6 +211,11 @@ body
   width: 100%;
 }
 
+.header2 {
+  height: 40vh; 
+  width: 100%;
+}
+
 @media screen and (max-width:750px)
 {
   .header {

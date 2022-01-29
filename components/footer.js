@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     this.innerHTML = `
     <div class="footer">
       <div>
-        Made with <a href="https://www.beuter.com">Beauter</a>
+      <span>&copy;</span> Copyright 2022 Saba Omidvar
       </div>
       <div>
         Design by Lawrend

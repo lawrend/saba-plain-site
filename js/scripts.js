@@ -6,10 +6,12 @@ function testMe() {
   }
 }
 
-// defining cards for animation; setTimeout so component has a chance to load first
+// function defines cards for animation; setTimeout is here so the component has a chance to load first
+
 let cards;
 setTimeout(()=> {cards = document.querySelectorAll(".card");}, 100);
-console.log(cards)
+// uncomment to check what's getting grabbed
+// console.log(cards)
 
 function isElementInViewport(el) {
   var rect = el.getBoundingClientRect();
@@ -37,3 +39,26 @@ function callbackFunc() {
 
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
+
+
+// adding and removing responsive elements from topnav
+function topnav(y) {
+    var x = document.getElementById(y);
+    if (!x.classList.contains('responsive')) {
+        x.className += " responsive";
+    } else {
+        x.className = x.className.replace("responsive", "");
+    }
+}
+
+// adding and removing responsive elements from topnav
+function addRemoveResponsive(y) {
+    var x = document.getElementById(y);
+    if (!x.classList.contains('responsive')) {
+        x.className += " responsive";
+    } else {
+        x.className = x.className.replace("responsive", "");
+    }
+}
+
+
