@@ -22,9 +22,10 @@ class Navbar extends HTMLElement {
 
           <a href="javascript:void(0)" onclick="topnav('treatmentDropdown')" class="dropbtn">Treatments</a>
           <div class="dropdown-content">
-            <a href="#">Adults</a>
-            <a href="#">Teens</a>
-            <a href="#">Couples</a>
+            <a href="adults.html">Adults</a>
+            <a href="children.html">Children</a>
+            <a href="couples.html">Couples</a>
+            <a href="mediation.html">Mediation</a>
           </div><!-- dropdown-content -->
         </li>
 
