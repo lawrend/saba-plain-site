@@ -572,7 +572,7 @@ ul.topnav li.-icon
 /*     display: block; */
 /* } */
 
-@media screen and (max-width:750px)
+@media screen and (max-width:850px)
 {
     ul.topnav li:not(:first-child)
     {
@@ -585,7 +585,17 @@ ul.topnav li.-icon
     }
 }
 
-@media screen and (max-width:750px)
+@media screen and (max-width:950px) {
+  ul.topnav li {
+    font-size: 10px;
+  }
+
+  ul.topnav li a {
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width:850px)
 {
     .bg-parallax.header {
       height: 25vh;
@@ -883,7 +893,7 @@ img
     }
 }
 
-@media screen and (min-width: 750px) and (max-width: 1000px)
+@media screen and (min-width: 850px) and (max-width: 1000px)
 {
     ._hide-desktop
     {
@@ -1218,7 +1228,7 @@ img
   width: 100%;
 }
 
-@media screen and (max-width:750px)
+@media screen and (max-width:850px)
 {
   .header {
     margin-top: 10%;
