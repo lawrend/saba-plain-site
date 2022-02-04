@@ -7,7 +7,7 @@ class ParallaxWithCard2 extends HTMLElement {
     this.innerHTML = `
 
     <!-- PARALLAX 3 NO PIC -->
-    <div class="bg-parallax plax3 sevenfive-view" >
+    <div class="bg-parallax plax3" >
       <div class="-front front-reg">
         <div class="container">
           <h1 class="secondary_text">She's super fine</h1>
