@@ -9,7 +9,7 @@ class ParallaxWithCard extends HTMLElement {
 
     <!-- PARALLAX 2 -->
     <div class="bg-parallax" style="background-image: url('assets/images/wildcat_canyon_sunset3.jpeg')">
-      <div class="-front front-reg">
+      <div class="front-reg">
         <div class="container">
           <h1 class="brawler black_text">How does she do it???</h1>
           <h2 class="white_text" >Very Carefully</h2>

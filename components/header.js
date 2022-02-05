@@ -7,9 +7,9 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <!-- PARALLAX 1-->
     <div class="bg-parallax _alignCenter header" style="background-image: url('assets/images/water_drop.jpg')">
-      <div class="-front front-reg brawler">
-          <h2>You could use some help
-          </h2>
+      <div class="front-reg brawler">
+          <h1>You could use some help
+          </h1>
 
       <br>
       <button class="btn btn2 header-btn">get some</button>

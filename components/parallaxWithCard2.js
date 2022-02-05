@@ -8,7 +8,7 @@ class ParallaxWithCard2 extends HTMLElement {
 
     <!-- PARALLAX 3 NO PIC -->
     <div class="bg-parallax plax3" >
-      <div class="-front front-reg">
+      <div class="front-reg">
         <div class="container">
           <h1 class="secondary_text">She's super fine</h1>
           <h2 class="offwhite_text" >Probably blow your mind</h2>
