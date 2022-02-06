@@ -9,10 +9,10 @@ class sectionWithButton extends HTMLElement {
     <!-- NON-PARALLAX SECTION 1.5 -->
     <div style="height: 60vh; width: 100%;">
       <div class="rale container _alignCenter" style="padding: 50px;">
-        <h3 class="fade-in-1 secondary_text">Why Should Therapy Be So Whatever???<br>
+        <h2 class="fade-in-1 secondary_text">Why Should Therapy Be So Whatever???<br>
           <br>
           <small class="shepp longfade tertiary_text">right?</small>
-        </h3>
+        </h2>
 
         <hr class="hr_tertiary">
       </div>

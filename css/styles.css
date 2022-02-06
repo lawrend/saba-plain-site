@@ -160,6 +160,7 @@ html
         -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     /*This will set all REM to 10px, so that 1.8rem=18px*/
+    height: 100%;
 }
 
 
@@ -634,6 +635,21 @@ ul.topnav li.-icon
 
         text-align: left;
     }
+}
+
+
+/* Picture Box */
+
+.picture-box {
+  height: 50vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.-pic-box {
+  color: var(--primarylt);
 }
 
 /*<<<---------- Parallax ---------->>>*/
@@ -1522,8 +1538,8 @@ img
   color: var(--secondary);
   width: 100%;
   bottom: 0;
-  /* position: fixed; */
-  height: 8vh;
+  position: relative;
+  height: 40px;
 }
 
 
