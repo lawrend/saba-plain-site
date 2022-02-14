@@ -1,0 +1,56 @@
+
+/* COLORS */
+:root {
+  --offwhite:  #f6f1ee; 
+  --primarylt: #fbdcce;
+  --primaryltop: #fbdcce40;
+  --primarydk: #efa885;
+  --secondary: #5583a6;
+  --tertiary:  #f6c270;
+  --blktext: #010101;
+  --whttext: #fafafa;
+}
+
+.topbox {
+  height: 8%;
+  width: 100% !important;
+  /* position: fixed; */
+  top: 0;
+  background-color: var(--primarydk);
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.name {
+  color: var(--secondary);
+  /* font-family: 'Mrs Sheppards', cursive; */
+  /* font-family: 'Poiret One', cursive; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.0em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.midbox1 {
+  /* height: 42%; */
+}
+
+.midbox2 {
+  /* height: 42%; */
+}
+
+.bottombox {
+  /* 4%; */
+}
+
+.about-basic {
+  padding-top: 40px;
+  background-color: var(--primarylt);
+  height: 40vh;
+  /* margin-top: 8vh; */
+}
+
+
