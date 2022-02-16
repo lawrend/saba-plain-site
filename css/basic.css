@@ -53,4 +53,17 @@
   /* margin-top: 8vh; */
 }
 
+.bg-basic {
+  overflow-y: auto;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40%;
+  margin: auto;
+}
+.front-basic {
+  padding: 8px;
+  color: var(--offwhite);
+}
 
