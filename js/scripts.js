@@ -6,6 +6,25 @@ function testMe() {
   }
 }
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+hamburger.addEventListener("click", mobileMenu);
+
+const navLink = document.querySelectorAll(".nav-link");
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
 // function defines cards for animation; setTimeout is here so the component has a chance to load first
 
 let cards;
@@ -42,23 +61,22 @@ window.addEventListener("scroll", callbackFunc);
 
 
 // adding and removing responsive elements from topnav
-function topnav(y) {
-    var x = document.getElementById(y);
-    if (!x.classList.contains('responsive')) {
-        x.className += " responsive";
-    } else {
-        x.className = x.className.replace("responsive", "");
-    }
-}
+// function topnav(y) {
+//     var x = document.getElementById(y);
+//     if (!x.classList.contains('responsive')) {
+//         x.className += " responsive";
+//     } else {
+//         x.className = x.className.replace("responsive", "");
+//     }
+// }
 
 // adding and removing responsive elements from topnav
-function addRemoveResponsive(y) {
-    var x = document.getElementById(y);
-    if (!x.classList.contains('responsive')) {
-        x.className += " responsive";
-    } else {
-        x.className = x.className.replace("responsive", "");
-    }
-}
-
+// function addRemoveResponsive(y) {
+//     var x = document.getElementById(y);
+//     if (!x.classList.contains('responsive')) {
+//         x.className += " responsive";
+//     } else {
+//         x.className = x.className.replace("responsive", "");
+//     }
+// }
 
