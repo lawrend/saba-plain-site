@@ -1,3 +1,16 @@
+/* COLORS */
+:root {
+  --offwhite:  #f6f1ee; 
+  --primarylt: #fbdcce;
+  --primaryltop: #fbdcce40;
+  --primarydk: #efa885;
+  --secondary: #5583a6;
+  --tertiary:  #f6c270;
+  --blktext: #010101;
+  --whttext: #fafafa;
+}
+
+
 /* @media screen and (max-width:768px) */
 /* { */
 /*   .topbox { */
@@ -25,17 +38,28 @@
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #fff;
+        background-color: var(--primarylt);
         width: 100%;
-        border-radius: 10px;
         text-align: center;
         transition: 0.6s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
+    .nav-logo {
+      font-size: 2.1rem;
+    }
+
     .nav-menu.active {
         left: 0;
+    }
+
+    .nav-link {
+        color: var(--secondary);
+      }
+
+    .nav-link:hover {
+      color: var(--offwhite);
     }
 
     .nav-item {
