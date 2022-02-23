@@ -1,8 +1,10 @@
 function testMe() {
   const spSound=1130;
   const hertz = [110, 220, 440, 880, 1760, 3520, 7040];
-  for(let i in hertz){
-    console.log(spSound/hertz[i])
+  let h = 110;
+  for(let i = 1; i<=7; i++){
+    console.log(h, spSound/h)
+    h*=2;
   }
 }
 
